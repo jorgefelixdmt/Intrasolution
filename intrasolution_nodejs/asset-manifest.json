@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ASP_intrasolution//intrasolution_nodejs/static/css/main.917f8db3.css",
+    "main.js": "/ASP_intrasolution//intrasolution_nodejs/static/js/main.ee3bac34.js",
+    "static/js/787.1bf5944d.chunk.js": "/ASP_intrasolution//intrasolution_nodejs/static/js/787.1bf5944d.chunk.js",
+    "static/media/safe.png": "/ASP_intrasolution//intrasolution_nodejs/static/media/safe.5af21cf23d8c7be3e4f5.png",
+    "static/media/logo-safe.png": "/ASP_intrasolution//intrasolution_nodejs/static/media/logo-safe.8e0b20e8c2a13d759495.png",
+    "index.html": "/ASP_intrasolution//intrasolution_nodejs/index.html",
+    "main.917f8db3.css.map": "/ASP_intrasolution//intrasolution_nodejs/static/css/main.917f8db3.css.map",
+    "main.ee3bac34.js.map": "/ASP_intrasolution//intrasolution_nodejs/static/js/main.ee3bac34.js.map",
+    "787.1bf5944d.chunk.js.map": "/ASP_intrasolution//intrasolution_nodejs/static/js/787.1bf5944d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.917f8db3.css",
+    "static/js/main.ee3bac34.js"
+  ]
+}
