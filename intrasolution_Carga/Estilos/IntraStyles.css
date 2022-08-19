@@ -1,0 +1,574 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #A5ABBE; 
+	SCROLLBAR-3DLIGHT-COLOR: #A5ABBE; 
+	SCROLLBAR-ARROW-COLOR: #073C68; 
+	SCROLLBAR-TRACK-COLOR: #D4D8E4; 
+	SCROLLBAR-DARKSHADOW-COLOR: #A5ABBE;
+}
+
+TABLE.Menu
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt;
+    TEXT-DECORATION: none
+}
+BODY.ColorMenu
+{
+    BACKGROUND-COLOR: #6190bb
+}
+
+TABLE.Menu TD.Celda
+{
+    BACKGROUND-COLOR: #4f80ad;
+    BORDER-BOTTOM: #19497c 1px solid;
+    BORDER-LEFT: #19497c 1px solid;
+    BORDER-RIGHT: #19497c 1px solid;
+    BORDER-TOP: #729fc8 1px solid;
+    PADDING-LEFT: 3px
+}
+
+TABLE.Menu A
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt;
+    TEXT-DECORATION: none
+}
+TABLE.Menu A:hover
+{
+    COLOR: #cfe1f1;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt;
+    TEXT-DECORATION: underline
+}
+A
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
+}
+FONT.Txt
+{
+    COLOR: white;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7.5pt
+}
+TABLE.Menu TR.Fila
+{
+    BORDER-BOTTOM: #19497c 1px solid;
+    BORDER-LEFT: #19497c 1px solid;
+    BORDER-RIGHT: #19497c 1px solid
+}
+TABLE.Menu TD.Celda1
+{
+    BACKGROUND-COLOR: #6b9ac5;
+    BORDER-BOTTOM: #19497c 1px solid;
+    BORDER-LEFT: #19497c 1px solid;
+    BORDER-RIGHT: #19497c 1px solid
+}
+BODY.Calendario
+{
+    BACKGROUND-COLOR: #6b9ac5
+}
+BODY.Main
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 0pt
+}
+.Tab
+{
+    BACKGROUND-COLOR: #7a8993;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+BODY.Main TD.TabHome
+{
+    BACKGROUND-COLOR: #376ca4;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+BODY.Main .Marco
+{
+    BORDER-LEFT: black 2px solid;
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid
+}
+BODY.Cabecera
+{
+}
+BODY.Main A
+{
+    COLOR: #324951;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+BODY.Main A:hover
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+BODY.Main .FontFecha
+{
+    COLOR: #858484;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-STYLE: italic
+}
+BODY.Main .Importante
+{
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+BODY.Main .FontDetalle
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+TABLE.dos
+{
+}
+TABLE.dos .Footer
+{
+    BACKGROUND-COLOR: #c8cdcf;
+    BORDER-BOTTOM: #a1a9ad 1px solid;
+    BORDER-RIGHT: #a1a9ad 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-RIGHT: 3px
+}
+TABLE.dos .Header
+{
+    BACKGROUND-COLOR: #899499;
+    COLOR: #fec701;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+TABLE.dos .Header A:hover
+{
+    COLOR: ##fec701;
+    FONT-FAMILY: Arial;
+    FONT-WEIGHT: bolder;
+    TEXT-DECORATION: underline
+}
+TABLE.dos .Row1
+{
+    BACKGROUND-COLOR: #eceeef;
+    BORDER-BOTTOM: #d8dbdd 1px solid;
+    COLOR: #324247;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+TABLE.dos .Row1 A
+{
+    COLOR: #032967;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.dos .Row1 A:hover
+{
+    COLOR: #032967;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+TABLE.dos .Row2
+{
+    BACKGROUND-COLOR: white;
+    BORDER-BOTTOM: #d8dbdd 1px solid;
+    COLOR: #324247;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 2px;
+    PADDING-LEFT: 3px;
+    PADDING-TOP: 2px;
+    TEXT-DECORATION: none
+}
+TABLE.dos .Row2 A
+{
+    COLOR: #032967;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.dos .Row2 A:hover
+{
+    COLOR: #032967;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+
+TABLE.dos .RowVerde
+{
+    BACKGROUND-COLOR: #eaf8f3;
+    BORDER-BOTTOM: #addfce 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowVerde A
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowVerde A:hover
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+TABLE.dos .RowAmarillo
+{
+    BACKGROUND-COLOR: FFFCDA;
+    BORDER-BOTTOM: #e8b723 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 2px;
+    PADDING-LEFT: 3px;
+    PADDING-TOP: 2px;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowAmarillo A
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowAmarillo A:hover
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+
+TABLE.dos .RowRojo
+{
+    BACKGROUND-COLOR: #FFD5E1;
+    BORDER-BOTTOM: #d66573 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowRojo A
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+TABLE.dos .RowRojo A:hover
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+TABLE.dos .RowPlomo
+{
+    BACKGROUND-COLOR: #E8E8E8;
+    BORDER-BOTTOM: #BBBBBB 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+
+TABLE.uno
+{
+}
+TABLE.dos .Header A
+{
+    COLOR: #fec701;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder;
+    TEXT-DECORATION: none
+}
+TABLE.uno .ColorLine
+{
+    COLOR: #f48a01
+}
+TABLE.uno .PageInfo
+{
+    BACKGROUND-COLOR: #98a1a6;
+    BORDER-BOTTOM: #757e8a 1px solid;
+    BORDER-LEFT: #566b74 1px solid;
+    BORDER-RIGHT: #757e8a 1px solid;
+    BORDER-TOP: #566b74 1px solid;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+TABLE.uno .Search
+{
+    BACKGROUND-COLOR: #e0e4e5
+}
+TABLE.uno .TxtCab
+{
+    COLOR: #ff6c00;
+    FONT-FAMILY: Arial
+}
+TABLE.uno .TxtDet
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+TABLE.dos .Footer A
+{
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+TABLE.dos .Footer A:hover
+{
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+
+TABLE.dos .TxtNoInput
+{
+    COLOR: black;
+    BACKGROUND-COLOR: #ffffaa;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+
+TABLE.dos .TxtCombo
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+TABLE.dos .Tab1
+{
+    BACKGROUND-COLOR: #7a8993;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+TABLE.dos .Tab2
+{
+    BACKGROUND-COLOR: #8f9da6;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+TABLE.dos .Asterisco
+{
+    COLOR: red;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+BODY.Cabecera TD.Txt
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+BODY.Cabecera TD.Txt A
+{
+    COLOR: black
+}
+.FontAdmin
+{
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bolder
+}
+.FontAdmin A
+{
+    COLOR: #445670;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.FontAdmin A:hover
+{
+    COLOR: #ff6c00;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: underline
+}
+.FontAdmin A:active
+{
+    COLOR: #e58801
+}
+BODY.Iconos
+{
+    BACKGROUND-COLOR: #9abee6
+}
+BODY.Iconos .ColorTable
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM: #c9e3f7 1px groove;
+    BORDER-RIGHT: #c9e3f7 1px double;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+BODY.Main TD.Tab A
+{
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bolder
+}
+BODY.Main TD.Tab A:hover
+{
+    COLOR: #8fb8e6
+}
+
+TABLE.dos .Calendario
+{
+    BACKGROUND-COLOR: #f1f2f3;
+    BORDER-BOTTOM: #a1a9ad 1px solid;
+    BORDER-RIGHT: #a1a9ad 1px solid;
+    BORDER-LEFT: #a1a9ad 1px solid;
+    BORDER-TOP: #a1a9ad 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+
+TABLE.dos .Calendario A
+{
+    BACKGROUND-COLOR: #f1f2f3;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+
+TABLE.dos .Feriado
+{
+    BACKGROUND-COLOR: #FFD5E1;
+    BORDER-BOTTOM: #d66573 1px solid;
+    BORDER-TOP: #d66573 1px solid;
+    BORDER-LEFT: #d66573 1px solid;
+    BORDER-RIGHT: #d66573 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+
+TABLE.dos .Feriado A
+{
+    COLOR: RED;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+
+TABLE.dos .Hoy
+{
+    BACKGROUND-COLOR: white;
+    BORDER-BOTTOM: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    BORDER-LEFT: black 1px solid;
+    BORDER-RIGHT: black 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt
+}
+
+TABLE.dos .Hoy A
+{
+    COLOR: BLACK;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+
+TABLE.dos .RowAgenda
+{
+    BACKGROUND-COLOR: #FFFCDA;
+    BORDER-BOTTOM: #e8b723 1px solid;
+    BORDER-TOP: #e8b723 1px solid;
+    BORDER-LEFT: #e8b723 1px solid;
+    BORDER-RIGHT: #e8b723 1px solid;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    PADDING-LEFT: 3px;
+    TEXT-DECORATION: none
+}
+
+TABLE.dos .RowAgenda A
+{
+    COLOR: #1a579c;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.BordeRojo {
+	PADDING-LEFT: 3px;
+	BORDER-BOTTOM:1px double #B8CFE5;
+	BACKGROUND-COLOR: #F4F8FB;
+	color: #ff0000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #B8CFE5;
+}
+
+.BordeCelda {
+	PADDING-LEFT: 3px;
+	BORDER-BOTTOM:1px double #c7cdd0;
+	BACKGROUND-COLOR: #f0f1f2;
+	color: #032967;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #c7cdd0;
+}
+.BordeBlanco {
+	PADDING-LEFT: 3px;
+	BORDER-BOTTOM:1px double #c7cdd0;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #032967;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #c7cdd0;
+}
+
+.BordeCabecera {
+	PADDING-LEFT: 3px;
+	BORDER-BOTTOM:1px double #c7cdd0;
+	BACKGROUND-COLOR: #899499;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font: bold;
+	border-right-width: 1px;
+	border-right-style: double;
+	border-right-color: #c7cdd0;
+}
+.fondo_bajo {
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 9pt;
+	background-color: #DDE9F4;	
+}

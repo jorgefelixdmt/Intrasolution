@@ -1,0 +1,19 @@
+\\.\pipe\384f5d84-c918-4af1-9158-62f4ecb16c2e
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016

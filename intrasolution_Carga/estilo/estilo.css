@@ -1,0 +1,85 @@
+body {
+	margin-left: 4px;
+	margin-top: 6px;
+	margin-right: 3px;
+	margin-bottom: 4px;
+	/* border: 1px solid #dc9525;*/
+}
+A:link {
+    FONT-FAMILY: Arial;
+	TEXT-DECORATION: none;
+    font-size: 8pt;
+	COLOR: #000;	
+}
+
+A:hover {
+	COLOR: #000;
+	FONT-FAMILY: Arial;
+	TEXT-DECORATION: underline;
+	font-size: 8pt;
+}
+A:visited {
+	FONT-FAMILY: Arial;
+    TEXT-DECORATION: none;
+	font-size: 8pt;
+	COLOR: #000;	
+}
+
+.titulo {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000;
+	background-color:#fffc02;
+	border: 1px solid #fff000;
+	margin:10px; /*para que no se pegue al borde*/
+	padding-left:4px
+}
+
+.resumen {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #000;
+	background-color:#f6f04f;
+	border: 1px solid #a5c1e2;
+	margin:10px; /*para que no se pegue al borde*/
+	padding-left:4px;
+}
+.datos {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000;
+	background-color:#b8cce4;
+	border: 1px solid #a5c1e2;
+	padding-left:4px
+}
+
+
+.resultado {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000;
+	border: 1px solid #aaaaaa;
+	padding-left:4px;
+	text-align:center;
+}
+
+.error {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	background-color:#ff3919;
+	text-align:center;
+	padding-left:4px
+}
+
+.exceso {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+	border: 1px solid #aaaaaa;
+	color: #000000;
+	background-color:#cccccc;
+	text-align:center;
+	padding-left:4px
+}

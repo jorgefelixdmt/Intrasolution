@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="common/docs.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="initial-scale = 1.0" />
+		<title>Gantt : Samples</title></title>
+		
+	</head>
+<body>
+	<a href="./08_api/18_load_from_mpp.html" >carga desde mpp descarga en json</a>
+	
+	<script>
+		if (msBrowser){
+			var summaryElements = document.querySelectorAll(".list_samples");
+			for (var i = 0; i < summaryElements.length; i++) {
+				var navItem = summaryElements[i];
+				var link = navItem.querySelector("a");
+				var parent = navItem.parentNode;
+				parent.insertBefore(link, navItem); 
+				navItem.style.display = 'none';
+			}
+		}
+	</script>
+</body>
+</html>

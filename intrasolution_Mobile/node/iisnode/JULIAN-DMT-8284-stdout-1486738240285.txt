@@ -1,0 +1,2 @@
+\\.\pipe\30007e1f-6061-403a-9394-dcd7e1657db9
+col_desarrollo

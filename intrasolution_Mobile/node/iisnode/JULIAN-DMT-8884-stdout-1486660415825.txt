@@ -1,0 +1,9 @@
+\\.\pipe\e77c3e92-ff7a-46ac-9af9-a5538349bd7b
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016

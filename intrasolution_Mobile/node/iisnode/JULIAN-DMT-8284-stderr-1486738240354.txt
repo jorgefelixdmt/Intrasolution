@@ -1,0 +1,17 @@
+ReferenceError: parceInt is not defined
+    at D:\desarrollo\node\controllers\mobile\maps.js:11:10
+    at Layer.handle [as handle_request] (D:\desarrollo\node\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\desarrollo\node\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\desarrollo\node\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\desarrollo\node\node_modules\express\lib\router\layer.js:95:5)
+    at D:\desarrollo\node\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\desarrollo\node\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\desarrollo\node\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (D:\desarrollo\node\node_modules\express\lib\router\index.js:176:3)
+    at router (D:\desarrollo\node\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (D:\desarrollo\node\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\desarrollo\node\node_modules\express\lib\router\index.js:312:13)
+    at D:\desarrollo\node\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (D:\desarrollo\node\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\desarrollo\node\node_modules\express\lib\router\index.js:271:10)
+    at jsonParser (D:\desarrollo\node\node_modules\body-parser\lib\types\json.js:112:7)

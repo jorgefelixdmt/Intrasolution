@@ -1,0 +1,3 @@
+\\.\pipe\61df9cd6-c61a-4915-a698-5f50ae4908c2
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Indicadores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link href="fonts.css" rel="stylesheet">
+        <link href="css/sidemenu.css" rel="stylesheet">
+    </head>
+    <body class="grid-container">
+       <div id="sidemenu" class="menu-expanded">
+            <!-- cabecera -->
+           <div id="header">
+               <div id="title"><span>eco2biz</span></div>
+               <div id="menu-btn">
+                   <div class="btn-hamburger"></div>
+                   <div class="btn-hamburger"></div>
+                   <div class="btn-hamburger"></div>
+               </div>
+           </div>
+           <!-- profile -->
+           <div id="profile">
+                <div id="photo"><img src="images/foto_jorge.jpg"></div>
+                <div id="name"><span>Jorge Felix</span></div>
+            </div>
+            <!-- items -->
+            <div id="menu-items">
+                <div class="item">
+                    <a href="">
+                        <div class="icon"><span class="icon-home"></span></div>
+                        <div class="title"><span> Indicadores</span></div>
+                    </a>
+                </div>
+                <div class="item separator">
+                </div>
+                <div class="item">
+                    <a href="">
+                        <div class="icon"><span class="icon-location"></span></div>
+                        <div class="title"><span> Graficos</span></div>
+                    </a>
+                </div>
+                <div class="item separator">
+                </div>
+            </div>
+       </div>
+
+       <!-- container -->
+       <div id="main-container">
+           Hola a Todos
+       </div>
+       
+       <script>
+           const btn = document.querySelector('#menu-btn');
+           const menu = document.querySelector('#sidemenu');
+           btn.addEventListener('click', e =>{
+               menu.classList.toggle("menu-expanded");
+               menu.classList.toggle("menu-collapsed")
+               document.querySelector('body').classList.toggle('body-expanded');
+           })
+       </script>
+    </body>
+</html>  

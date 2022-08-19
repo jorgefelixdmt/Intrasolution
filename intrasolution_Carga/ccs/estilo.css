@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Open+Sans:wght@300&display=swap');
+  .divLoader{
+ 
+    margin-top: 6rem;
+    text-align: center;
+    
+  }
+  .loader{
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    visibility:hidden;
+    bottom: 0;
+    margin: auto;
+    border: 6px dotted blue;
+    border-style: solid solid dotted;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation: rotationBack 1s linear infinite;
+    transform-origin: center center;
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes rotationBack {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  } 
+
+/* estilos para subir archivos y soltar */
+  .form{
+    top:-1rem;
+    position:relative;
+    margin: 0 auto;
+    width: 60%;
+    height: 250px;
+    border: 3px dashed grey;
+    border-radius: 10px;
+    
+    }
+   
+    .form span{
+      
+      display: block;
+      color: rgb(6, 6, 100);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      overflow-wrap: break-word;
+    	white-space:normal;
+      margin-left: auto;
+      margin-right: auto;
+      top:150px;
+      text-align: center;
+    }
+  
+
+    .formGroup{
+      border-radius: 10px;
+      background-color: #FF3D00;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: -20px;
+     
+    }
+    .formGroup input{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    z-index: 1;
+    }
+    
+    .formGroup div {
+      top: -16rem;
+      position: relative;
+      display: block;
+      padding: 15px 20px;
+      font-size: 16px;
+    }
+   
+    .formGroup button{
+    
+        position: relative;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        width: auto;
+        padding: 4px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        background: red;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+    }
+    .formGroup p{
+      font-size: 16px;
+    }
+    .botonExcel:hover{
+    
+      position: relative;
+      border-radius: 10px;
+      padding: 10px 20px;
+      background:rgb(6, 6, 100);
+      outline: none;
+      border: none;
+      color:white;
+      font-size: 16px;
+      
+  }
+
+    .botonExcel{
+      font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+      position: relative;
+        border-radius: 10px;
+        padding: 10px 20px;
+        background: red;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    #fileName::before {
+        content: 'File Name:';
+    }
+    #fileName {
+        hyphens: auto;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        /* white-space:nowrap; */
+        top: 17rem;
+    }
+    
+   
+    @media only screen and (max-width: 620px)  {  
+    
+        .divLoader{
+            margin-top:6rem;
+            text-align: center;
+            
+          }
+          #fileName {
+            hyphens: auto;
+            font-size: 16px;
+            text-align: center;
+            position: relative;
+            /* white-space:nowrap; */
+            top: 17rem;
+        }
+    } 
+
+  /* //estilos para el check   */
+
+.info-msg,
+.success-msg,
+.warning-msg,
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+/* .info-msg {
+  color: #059;
+  background-color: #BEF;
+} */
+.success-msg {
+  
+  color: #270;
+  visibility:hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DFF2BF;
+  text-align: center;
+}
+/* .warning-msg {
+  color: #9F6000;
+  background-color: #FEEFB3;
+} */
+.error-msg {
+  color: #D8000C;
+  visibility:hidden;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFBABA;
+  text-align: center;
+  
+  
+}
+
+/* Just for CodePen styling - don't include if you copy paste */
+
+.titlePrincipal{
+  text-align: center;
+  color: rgb(6, 6, 100);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+p{
+  font-size: 20px;
+  margin-top: 0;
+  color: white;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.enlaceDescargaArchivo{
+ 
+  text-align: center;
+}

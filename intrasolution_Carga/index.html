@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<!-- <script src="index.js"></script> -->
+
+<body>
+
+    <form>
+        <div class="form">
+            <input name="file" id="entry_value" ref="fileInput" type="file" onchange="getFileName()">
+            <div>
+                Upload your files here
+                <button class="btn bg-color-dblue btn-primary ">Browse</button>
+
+            </div>
+            <span id="fileName" class="text-primary "></span>
+        </div>
+    </form>
+
+    <div class="divLoader">
+
+        <span class="loader"></span>
+
+        <input type="button" value="boton que activa el recorrido del excel" onclick="EjecutaAccion('Load')">
+
+    </div>
+</body>
+
+<script type="text/javascript">
+    function EjecutaAccion(Accion) {
+
+        if (Accion == "Load") {
+            //this will hide the waiting.gif
+            document.getElementsByClassName("loader")[0].style.visibility = 'visible';
+            frmCargos.Acc.value = Accion;
+            frmCargos.submit();
+        }
+        else {
+            //caundo se temina de leer todas las filas del excel hacer que Accion sea diferente de Load asi se quita esa animacion de carga
+            document.getElementsByClassName("loader")[0].style.visibility = 'hidden';
+        }
+    }
+
+    function getFileName() {
+        var x = document.getElementById('entry_value')
+        document.getElementById('fileName').innerHTML = x.value.split('\\').pop()
+    }
+
+</script>
+
+</html>

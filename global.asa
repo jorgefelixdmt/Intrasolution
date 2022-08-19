@@ -1,0 +1,25 @@
+<OBJECT RUNAT=Server SCOPE=Application ID=MessageManager     PROGID="Scripting.Dictionary"></OBJECT>
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+    Sub Application_OnStart
+
+		Application("DOMINIOTECH") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution_desarrollo;User ID=sa;Password=dominiotech"
+        Application("leanc")       = "Provider=SQLOLEDB;Data Source=192.168.1.185;Initial Catalog=leanc_Demo;User ID=sa;Password=dominiotech"
+        'Application("INTRASOLUTION_DESARROLLO") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution_desarrollo;User ID=sa;Password=dominiotech"
+        Application("INTRASOLUTION_DESARROLLO") = "Provider=SQLOLEDB;Data Source=192.168.1.185\dev2016;Initial Catalog=intrasolution_desarrollo;User ID=usuario_dev;Password=XM19fPLW"
+		Application("INTRASOLUTION") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution;User ID=sa;Password=dominiotech"
+       
+
+        Application("urlServidor") = "http://intranet.dominiotech.com.pe"    
+        Application("smtpServer") = "mail.eco2biz.com"
+        Application("smtpServerPort") = 587
+        Application("SMTP_Authenticate") = 1
+        Application("SMTP_User") = "alertas@eco2biz.com"
+        Application("SMTP_Password") = "eco2bizperu"
+    End Sub
+
+
+    Sub Session_OnStart
+
+    End Sub
+</SCRIPT>
+

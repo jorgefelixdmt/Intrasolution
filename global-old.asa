@@ -1,0 +1,69 @@
+<OBJECT RUNAT=Server SCOPE=Application ID=MessageManager     PROGID="Scripting.Dictionary"></OBJECT>
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+    Sub Application_OnStart
+        Dim MessageManager
+        Application("DOMINIOTECH") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution_desarrollo;User ID=sa;Password=dominiotech"
+        Application("leanc")       = "Provider=SQLOLEDB;Data Source=192.168.1.185;Initial Catalog=leanc_Demo;User ID=sa;Password=dominiotech"
+        'Application("INTRASOLUTION_DESARROLLO") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution_desarrollo;User ID=sa;Password=dominiotech"
+        Application("INTRASOLUTION_DESARROLLO") = "Provider=SQLOLEDB;Data Source=192.168.1.185\dev2016;Initial Catalog=intrasolution_desarrollo;User ID=usuario_dev;Password=XM19fPLW"
+		Application("INTRASOLUTION") = "Provider=SQLOLEDB;Data Source=192.168.1.190;Initial Catalog=intrasolution;User ID=sa;Password=dominiotech"
+
+        Application("urlServidor") = "http://intranet.dominiotech.com.pe"    
+        Application("smtpServer") = "mail.eco2biz.com"
+        Application("smtpServerPort") = 587
+        Application("SMTP_Authenticate") = 1
+        Application("SMTP_User") = "alertas@eco2biz.com"
+        Application("SMTP_Password") = "eco2bizperu"
+
+        Set MessageManager = InitMessageManager()
+		Set Application("MessageManager") = MessageManager
+        Application("visitors")=0
+    End Sub
+
+    'Creado por JF para cargar diccionario de idioma'
+        'Ejemplo de diccionario
+        'Dim d
+        'Set d=Server.CreateObject("Scripting.Dictionary")
+        'd.Add "re","Red"
+        'd.Add "gr","Green"
+        'd.Add "bl","Blue"
+        'd.Add "pi","Pink"
+        'Response.Write("The value of key gr is: " & d.Item("gr"))
+
+    Function InitMessageManager()
+
+	   		dim objConn,ObjRS, oConn
+            Set oConn = Server.CreateObject("ADODB.Connection")
+            strConnQuery = Application("INTRASOLUTION_DESARROLLO")
+           
+            oConn.Open(strConnQuery)		
+            oConn.CommandTimeout = 60
+            
+            wSQL = "pr_msg_ListaMensajesIdioma" 
+			Set ObjRs  = server.CreateObject("ADODB.Recordset")
+			ObjRs.Open wSQL, oConn
+   
+			Do While Not ObjRs.EOF
+				MessageManager.Add   Trim(ObjRs("codigo")) ,ObjRs("txt_espanol") & "|" & ObjRs("txt_ingles") & "|" & ObjRs("txt_frances") '
+                'MessageManager.Add   ObjRs("fb_mensaje_idioma_id"), ObjRs("txt_espanol") & "|" & ObjRs("txt_ingles") & "|" & ObjRs("txt_frances") 
+				ObjRs.MoveNext	
+			Loop
+		    set oConn=nothing
+			set objRs=nothing
+		
+			set InitMessageManager = MessageManager
+    End Function
+
+    Sub Session_OnStart
+        Application.Lock
+        Application("visitors")=Application("visitors")+1
+        Application.UnLock
+    End Sub
+
+    Sub Session_OnEnd
+        Application.Lock
+        Application("visitors")=Application("visitors")-1
+        Application.UnLock
+    End Sub
+</SCRIPT>
+

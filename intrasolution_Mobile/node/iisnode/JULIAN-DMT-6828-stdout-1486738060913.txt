@@ -1,0 +1,11 @@
+\\.\pipe\a03f070b-5abf-4705-92b1-588c57aa3675
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3
+col_desarrollo
+Executing (default): select latitud,longitud,codigo from eva_hallazgo where fb_uea_pe_id = 1 and YEAR(fecha_ocurrencia) = 2016 and eva_tipo_evaluacion_id = 3

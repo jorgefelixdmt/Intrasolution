@@ -1,0 +1,3 @@
+\\.\pipe\fa580478-6bfe-4125-93b4-4af534149a16
+col_desarrollo
+Executing (default): select latitud,longitud from inc_informe_final where fb_uea_pe_id = 1 and YEAR(fecha_evento) = 2016
